@@ -31,8 +31,20 @@
         </nav>
     </div>
 
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+    </script>
 </body>
 
 </html>
