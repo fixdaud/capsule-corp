@@ -1,4 +1,4 @@
-//to see result clik this link https://daud17assidiqi.github.io/capsule-corp/
+//To see the results click this link https://daud17assidiqi.github.io/capsule-corp/
 <p align="center">
   <a href="http://materializecss.com/">
     <img src="http://materializecss.com/res/materialize.svg" width="150">
