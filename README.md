@@ -1,3 +1,14 @@
+// To see the results click this link https://daud17assidiqi.github.io/capsule-corp/ 
+// Today I created a simple company web profile.
+// in this project I used http://materializecss.com
+
+
+
+
+
+
+
+
 <p align="center">
   <a href="http://materializecss.com/">
     <img src="http://materializecss.com/res/materialize.svg" width="150">
