@@ -18,11 +18,7 @@
   filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.5));
 }
 
-section {
+section,
+footer {
   padding: 20px 0;
 }
-
-/* .card-panel {
-  width: 250px;
-  padding: 10px 10px 10px 10px;
-} */
