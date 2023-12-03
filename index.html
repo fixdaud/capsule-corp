@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="home" class="scrollspy">
     <!-- Navbar -->
     <div class="navbar-fixed">
         <nav class="blue darken-2">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">Capsule Corp.</a>
+                    <a href="#home" class="brand-logo">Capsule Corp.</a>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#about">About Us</a></li>
@@ -98,9 +98,9 @@
     </section>
 
     <!-- Clients -->
-    <div class="parallax-container">
+    <div id="clients" class="parallax-container scrollspy">
         <div class="parallax"><img src="img/slider/4.png"></div>
-        <div id="clients" class="container clients scrollspy">
+        <div class="container clients ">
             <h3 class="center light white-text"> Our Clients</h3>
             <div class="row">
                 <div class="col m4 s12 center">
@@ -261,7 +261,9 @@
 
 
         const scroll = document.querySelectorAll('.scrollspy')
-        M.ScrollSpy.init(scroll)
+        M.ScrollSpy.init(scroll, {
+            scrolloffset: 50
+        })
     </script>
 </body>
 
