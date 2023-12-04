@@ -1,4 +1,4 @@
-// To see the results click this link https://daud17assidiqi.github.io/capsule-corp/ 
+ 
 // Today I created a simple company web profile.
 // in this project I used http://materializecss.com
 
