@@ -1,6 +1,4 @@
- 
-// Today I created a simple company web profile.
-// in this project I used http://materializecss.com
+
 
 
 
