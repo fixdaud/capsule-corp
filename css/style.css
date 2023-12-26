@@ -33,3 +33,7 @@ footer {
   background-size: cover;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
+
+footer img {
+  filter: brightness(20);
+}

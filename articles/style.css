@@ -151,15 +151,65 @@ table {
 /*style*/
 body {
   font: 16px/28px arial, sans-serif;
-  background-color: #eaeaea;
+  background-image: url(../img/assets/pattern.jpg);
+  /* Photo by Suzy Hazelwood: https://www.pexels.com/photo/blue-and-red-galaxy-artwork-1629236/ */
   color: #333;
+}
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-color: lightskyblue;
+  border-bottom: 3px solid salmon;
+  z-index: 999;
+}
+
+.nav-wrapper img {
+  height: 45px;
+  margin-top: 0.5px;
+}
+.nav-wrapper a {
+  text-decoration: none;
+}
+
+.row {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 .container {
   width: 960px;
-  margin: auto;
+  margin: 80px auto;
   background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
+.ig {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/assets/ig.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -999px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
 .header {
   padding: 20px;
   padding-bottom: 10px;
